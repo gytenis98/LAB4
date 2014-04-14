@@ -3,13 +3,10 @@
 -- Engineer:
 --
 -- Create Date:   13:27:11 07/10/2012
--- Design Name:   
+-- Design Name:   Gytenis Borusas
 -- Module Name:   C:/My_Designs/ECE281_Xilinx14/PRISM_test/Datapath_testbench.vhd
 -- Project Name:  PRISM_test
--- Target Device:  
--- Tool versions:  
--- Description:   
--- 
+
 -- VHDL Test Bench Created by ISE for module: Datapath
 -- 
 -- Dependencies:
@@ -57,7 +54,7 @@ ARCHITECTURE behavior OF Datapath_testbench IS
          IR : OUT  std_logic_vector(3 downto 0);
          Reset_L : IN  std_logic;
          Clock : IN  std_logic;
-         Data : INOUT  std_logic_vector(3 downto 0);
+         Data : INOUT  std_logic_vector(3 downto 0)
          --IOSEL_L : IN  std_logic;
          --MEMSEL_L : IN  std_logic;
          --R_W : IN  std_logic
@@ -94,7 +91,7 @@ ARCHITECTURE behavior OF Datapath_testbench IS
    -- Clock period definitions
    constant Clock_period : time := 10 ns;
  
-BEGIN
+Begin
  
 	-- Instantiate the Unit Under Test (UUT)
    uut: Datapath PORT MAP (
@@ -114,7 +111,7 @@ BEGIN
           IR => IR,
           Reset_L => Reset_L,
           Clock => Clock,
-          Data => Data,
+          Data => Data
           --IOSEL_L => IOSEL_L,
           --MEMSEL_L => MEMSEL_L,
           --R_W => R_W
