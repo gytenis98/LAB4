@@ -63,4 +63,22 @@ a) At 50ns we se IR completing the command 7 for the IR.
 b) At 75ns the Program Counter is at value 4 and at the same time the Controller places this value one the Databus.
 c) At 85ns operand 3 is put into the data buss.
 
-
+| Function | Lo      | 
+|---------|---------------|
+| LDAI        | B             | 
+| ROR         |	B             | 
+| OUT         | 03            |  
+| NOP         |               | 
+| STA         | 00            |
+| JN          | 2             | 
+| ROR         | D             | 
+| OUT         | 03            | 
+| NOP	      |   	      |
+| STA         | 09            |
+| JN          | E             |
+| ROR         | 7             |
+| OUT         | 03            |
+| NOP         |               |
+| STA         | 09            |
+| JN          |               |
+| JMP         | 7             |
