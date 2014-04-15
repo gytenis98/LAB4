@@ -50,4 +50,17 @@ I checked my datapath the same way I checked my ALU testbench. I manually checke
 #####Bugs and Errors
 I made only one small mistake which at first did not let me to get "Check" at the syntax part. Instead of `elsif` I wrote `elseif` in three parts. 
 
+#Reverse Engineering
+
+####0-50 ns
+
+This time frame was checked with the example in the Lab4 and matched it.
+
+####50-100 ns
+
+To confirm that waveform in this timeframe is correct I checked following part:
+a) At 50ns we se IR completing the command 7 for the IR.
+b) At 75ns the Program Counter is at value 4 and at the same time the Controller places this value one the Databus.
+c) At 85ns operand 3 is put into the data buss.
+
 
