@@ -27,4 +27,18 @@ ALU was built to perform 8 following commands: AND, NEG(2s complement), NOT(inve
 
 The simulation ran successfully. I checked each value of OpSel with corresponding value of Accumulator and Data and everything matched. 
 
+#####Functionality 
+
+| Function | Operation
+|:----:|:----
+| AND  | A<- A and M[aaaa aaaa]
+| NEG  | A<- -A
+| NOT  | A<- not (A)
+| ROR  | A<- ror (A)
+| OR   | A<- A or M[aaaa aaaa]
+| IN   | A<- I[aaaa]
+| ADD  | A<- A + M[aaaa aaaa]
+| LDA  | A<- M[aaaa aaaa]
+
+
 ![alt text](https://raw.githubusercontent.com/gytenis98/LAB4/master/Datapath_screen.JPG)
