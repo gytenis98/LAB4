@@ -1,6 +1,6 @@
 LAB4
 ====
-#ALU
+#DESIGN
 ###ALU Schematic 
 
 ![alt text](http://s27.postimg.org/a0l3aeehv/2014_04_14_22_05_08.jpg)
@@ -85,3 +85,8 @@ c) At 85ns operand 3 is put into the data buss.
 | STA         | 09            |
 | JN          |               |
 | JMP         | 7             |
+
+
+Documentation:
+Got helped with the start of this lab from Capt Silva. 
+Got helped with datapath_testbench from Tyler Spence.
