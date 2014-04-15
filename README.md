@@ -40,5 +40,9 @@ The simulation ran successfully. I checked each value of OpSel with correspondin
 | ADD  | A<- A + M[aaaa aaaa]
 | LDA  | A<- M[aaaa aaaa]
 
+#Datapath Shell
 
 ![alt text](https://raw.githubusercontent.com/gytenis98/LAB4/master/Datapath_screen.JPG)
+
+#####Analysis
+I checked my datapath the same way I checked my ALU testbench. I manually checked all the possible combinations and compared to calculations performed with a pen in my notebook. After this not very quick check I found that my datapath performed as expected.
