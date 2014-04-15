@@ -49,3 +49,5 @@ I checked my datapath the same way I checked my ALU testbench. I manually checke
 
 #####Bugs and Errors
 I made only one small mistake which at first did not let me to get "Check" at the syntax part. Instead of `elsif` I wrote `elseif` in three parts. 
+
+
