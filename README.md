@@ -63,7 +63,10 @@ a) At 50ns we se IR completing the command 7 for the IR.
 b) At 75ns the Program Counter is at value 4 and at the same time the Controller places this value one the Databus.
 c) At 85ns operand 3 is put into the data buss.
 
-| Function | Lo      | 
+
+#####PRISM program listing with memory locations for each instruction
+
+| Function | Operand      | 
 |---------|---------------|
 | LDAI        | B             | 
 | ROR         |	B             | 
