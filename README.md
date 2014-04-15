@@ -48,4 +48,4 @@ The simulation ran successfully. I checked each value of OpSel with correspondin
 I checked my datapath the same way I checked my ALU testbench. I manually checked all the possible combinations and compared to calculations performed with a pen in my notebook. After this not very quick check I found that my datapath performed as expected.
 
 #####Bugs and Errors
-I made only one small mistake which at first did not let me to get "Check" at the syntax part. Instead of 'elsif' I wrote 'elseif' in three parts. 
+I made only one small mistake which at first did not let me to get "Check" at the syntax part. Instead of `elsif` I wrote `elseif` in three parts. 
